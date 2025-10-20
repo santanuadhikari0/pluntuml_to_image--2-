@@ -5,7 +5,7 @@ import boto3
 import uuid
 import re
 from botocore.config import Config
-import time
+
 
 config = Config(signature_version='s3v4')
 s3 = boto3.client('s3',  region_name='us-east-1',  config=config)
